@@ -6,7 +6,22 @@ yarn-error.log
 package-lock.json
 
 # build
-lib/
+
+_tests_
+.github
+.vscode
+.yarn
+.eggignore
+.eslintignore
+.eslintrc.js
+.npmignore
+.prettierrc.js
+babel.config.js
+CONTRIBUTING.md
+egg.json
+index.tsx
+jest.config.js
+tsconfig.json
 
 # jest
 .jest
