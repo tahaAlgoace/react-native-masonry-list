@@ -109,7 +109,7 @@ function MasonryList<T>(props: Props<T>): ReactElement {
     >
       <>
         <View style={ListHeaderComponentStyle}>{ListHeaderComponent}</View>
-        {data.length === 0 && ListEmptyComponent ? (
+        {data?.length === 0 && ListEmptyComponent ? (
           React.isValidElement(ListEmptyComponent) ? (
             ListEmptyComponent
           ) : (
@@ -135,7 +135,7 @@ function MasonryList<T>(props: Props<T>): ReactElement {
                   }}
                 >
                   {data
-                    .map((el, i) => {
+                    ?.map((el, i) => {
                       if (i % numColumns === num) {
                         return (
                           <View
