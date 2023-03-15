@@ -1,5 +1,5 @@
 {
-  "name": "tahaAlgoace/@react-native-masonry-list",
+  "name": "tahaAlgoace/react-native-masonry-list",
   "version": "1.4.1",
   "description": "React Native Masonry List for Pinterest like UI implemented just like the [FlatList].",
   "main": "lib/index.js",
